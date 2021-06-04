@@ -1,3 +1,5 @@
+//Problem3
+
 const cubeVal = val => val**3
 
 let vals = [1,2,3,4,5,6,7]
