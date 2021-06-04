@@ -1,3 +1,5 @@
+//Problem2
+
 function* words(sentence) {
 	let words = sentence.split(' ');
 	yield* words;
