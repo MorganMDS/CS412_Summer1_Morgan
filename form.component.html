@@ -1,0 +1,9 @@
+<div class="form">
+  <form action="#" ngNativeValidate method="POST" (submit)="handleSubmit($event)">
+    <p>location: <input type="text" required [(ngModel)]="form.location" name="location"></p>
+    <p>fields: <input type="text"  required [(ngModel)]="form.fields" name="fields"></p>
+    <p>timesteps: <input type="text"  required [(ngModel)]="form.timesteps" name="timesteps"></p>
+    <p>units: <input type="text" [(ngModel)]="form.units" name="units"></p>
+    <button type="submit">Submit</button>
+  </form>
+</div>

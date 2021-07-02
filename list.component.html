@@ -1,0 +1,8 @@
+<div *ngIf="list && list.length > 0">
+  <h1>Data display:</h1>
+  <ul>
+    <li *ngFor="let item of list">
+      <span>{{ item.temperature }} - {{ item.isRedisData ? 'cache' : 'third-part API' }}</span>
+    </li>
+  </ul>
+</div>
